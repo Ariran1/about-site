@@ -1,4 +1,14 @@
-
+.aboutWidthGsfds {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 1200px;
+}
+@media screen and (max-width: 1200px) {
+  .aboutWidthGsfds {
+    width: auto;
+  }
+}
 .container__about {
   background: #eee;
   font-family: "PT Sans";
